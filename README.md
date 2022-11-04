@@ -1,3 +1,4 @@
+[](https://img.shields.io/badge/Teacher-Backend-bluegreen)
 # Appointment Teacher Backend
 
 > This is a the logical part of appointment teacher application containing the relationship all the actual database to be fetched to the frontend part, allowing user to create a teacher, to reserve a teacher
@@ -8,9 +9,9 @@
 - Languages: JavaScript, Ruby
 - Frameworks: Ruby On Rails, ReactJs
 
-## Live Demo (if available)
+## API Documentation
 
-[Live Demo Link](https://livedemo.com)
+[API Documentation](https://medium.com/@adebowalevictorjheart/teacher-appointment-api-documentation-3a55085fdcca)
 
 
 ## Getting Started
@@ -27,12 +28,22 @@
 ```bundle install``` to install all gem
 
 **To start the backend server run :**
-
+```Run rails db:create rails db:migrate```
 ```rail server / rails s```
 ***
 
->>Notice that server will be running on the ``port: 3001`` by defauld
+>>Notice that server will be running on the ``port: 3001`` by default
 
+
+**Here are screenshots of some of the end points**
+
+![Screenshot (99)](https://user-images.githubusercontent.com/67344757/199921304-8706d5d9-9f3b-4305-b84f-13837c2140f7.png)
+
+
+
+![Screenshot (105)](https://user-images.githubusercontent.com/67344757/199921428-c2817e28-493e-46a9-a978-9fe204bb3a56.png)
+
+![Screenshot (101)](https://user-images.githubusercontent.com/67344757/199921494-bda4fc67-57cf-49c4-8725-b9372d1bf7dc.png)
 
 
 👤 **Yannick Zahinda**
@@ -71,6 +82,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT) licensed.
